@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
       <footer className="py-4 text-center text-white/60 text-sm">
-        Powered by Nonfiction!
+        Powered by Nonfiction
       </footer>
     </div>
   )
