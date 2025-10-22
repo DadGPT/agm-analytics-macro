@@ -27,13 +27,18 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-8">
-      <div className="w-full max-w-7xl">
-        <h1 className="text-6xl font-bold text-white text-center mb-12">
-          AGM Analytics Dashboard
-        </h1>
-        {data && <Carousel data={data} />}
+    <div className="min-h-screen flex flex-col">
+      <div className="flex-1 flex items-center justify-center p-8">
+        <div className="w-full max-w-7xl">
+          <h1 className="text-6xl font-bold text-white text-center mb-12">
+            AGM Analytics Dashboard
+          </h1>
+          {data && <Carousel data={data} />}
+        </div>
       </div>
+      <footer className="py-4 text-center text-white/60 text-sm">
+        Powered by Nonfiction
+      </footer>
     </div>
   )
 }
